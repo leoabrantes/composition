@@ -1,5 +1,8 @@
 package entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import entities.WorkerLevel.WorkerLevel;
 
 public class Worker {
@@ -9,7 +12,7 @@ public class Worker {
 	private WorkerLevel level;
 	private double baseSalary;
 	
-	
+	private List<HourContract> contracts = new ArrayList<>();
 	
 	public Worker() {
 	}
